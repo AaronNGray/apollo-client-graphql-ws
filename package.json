@@ -1,0 +1,23 @@
+{
+  "name": "apollo-graphql-ws",
+  "version": "0.0.1",
+  "description": "Apollo client WebSocketLink",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "AaronNGray",
+  "license": "MIT",
+  "dependencies": {
+    "@apollo/client": "^3.4.11",
+    "graphql": "^15.5.3",
+    "graphql-ws": "^5.5.0",
+    "ws": "^8.2.2"
+  },
+  "devDependencies": {
+    "@types/events": "^3.0.0",
+    "@types/websocket": "^1.0.4",
+    "@types/ws": "^7.4.7",
+    "typescript": "^4.4.3"
+  }
+}

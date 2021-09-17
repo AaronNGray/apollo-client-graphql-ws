@@ -27,7 +27,7 @@ export default class WebSocketLink extends ApolloLink {
             if (err instanceof Error) {
               return sink.error(err);
             }
-/*
+
             if (err instanceof CloseEvent) {
               return sink.error(
                 // reason will be available on clean closes
@@ -36,7 +36,7 @@ export default class WebSocketLink extends ApolloLink {
                 ),
               );
             }
-*/
+
             return sink.error(
               new Error(
                 (err as GraphQLError[])

@@ -2,7 +2,7 @@
   "name": "apollo-client-graphql-ws",
   "version": "0.0.1",
   "description": "Apollo client WebSocketLink",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"

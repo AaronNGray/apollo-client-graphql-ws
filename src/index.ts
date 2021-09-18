@@ -6,7 +6,6 @@ import {
 } from '@apollo/client/core';
 import { print, GraphQLError } from 'graphql';
 import { createClient, ClientOptions, Client } from 'graphql-ws';
-import { CloseEvent } from 'ws';
 
 export default class WebSocketLink extends ApolloLink {
   private client: Client;

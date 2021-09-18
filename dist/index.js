@@ -1,8 +1,7 @@
 import { ApolloLink, Observable } from '@apollo/client/core';
 import { print } from 'graphql';
 import { createClient } from 'graphql-ws';
-//import { CloseEvent } from 'ws';
-export default class WebSocketLink extends ApolloLink {
+export class WebSocketLink extends ApolloLink {
     constructor(options) {
         super();
         this.client = createClient(options);

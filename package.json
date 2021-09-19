@@ -3,7 +3,7 @@
   "version": "0.0.4",
   "author": {
     "name": "AaronNGray <aaronngray@gmail.com>",
-    "url:"https://github.com/AaronNGray"
+    "url": "https://github.com/AaronNGray"
   },
   "description": "Apollo client WebSocketLink",
   "repository": {

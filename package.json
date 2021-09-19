@@ -1,13 +1,19 @@
 {
   "name": "apollo-client-graphql-ws",
-  "version": "0.0.2",
+  "version": "0.0.4",
+  "author": {
+    "name": "AaronNGray <aaronngray@gmail.com>",
+    "url:"https://github.com/AaronNGray"
+  },
   "description": "Apollo client WebSocketLink",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AaronNGray/apollo-client-graphql-ws.git"
+  },
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc"
   },
-  "author": "AaronNGray <aaronngray@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "@apollo/client": "^3.4.11",

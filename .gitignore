@@ -3,6 +3,7 @@ node_modules
 
 # builded sources
 build
+dist
 
 # coverage reports
 coverage
